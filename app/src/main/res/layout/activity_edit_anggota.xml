@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="ghofir.kostalk.Edit_anggota">
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColorHint="@android:color/black"
+        android:textColor="@android:color/black"
+        android:drawableLeft="@drawable/ic_user_24dp"
+        android:layout_marginTop="0dp"
+        android:drawablePadding="16dp"
+        android:padding="10dp"
+        android:hint="Nama" />
+    <EditText
+        android:id="@+id/nope"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColorHint="@android:color/black"
+        android:textColor="@android:color/black"
+        android:drawableLeft="@drawable/ic_call_24dp"
+        android:layout_marginTop="8dp"
+        android:drawablePadding="16dp"
+        android:padding="10dp"
+        android:inputType="phone"
+        android:hint="No Hp" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColorHint="@android:color/black"
+        android:textColor="@android:color/black"
+        android:drawableLeft="@drawable/ic_email_24dp"
+        android:layout_marginTop="8dp"
+        android:drawablePadding="16dp"
+        android:padding="10dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"/>
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:text="Simpan"
+            android:layout_margin="10dp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/bottom1"/>
+
+    </LinearLayout>
+
+</LinearLayout>
